@@ -41,6 +41,20 @@ Trained classes: https://drive.google.com/open?id=1cewMfusmPjYWbrnuJRuKhPMwRe_b9
 Visual studio: https://drive.google.com/drive/u/0/folders/1-oLVIxvhFqmHPVLAgq0hraHq5Wv8UZal  
 
 
+Detection using camera: 
+
+
+https://user-images.githubusercontent.com/64933670/135770465-4a3f5f79-0a8b-4122-a480-401bfa647c68.mp4
+
+Video detection: 
+
+
+https://user-images.githubusercontent.com/64933670/135770546-2cd803a8-2bb0-40a4-8006-a993a728353d.mp4
+
+
+
+
+
 ## Interactive Map
 
 ## Mobile app
