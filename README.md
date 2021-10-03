@@ -56,6 +56,24 @@ https://user-images.githubusercontent.com/64933670/135770546-2cd803a8-2bb0-40a4-
 
 
 ## Interactive Map
+This is an interactive map (updates once a day, as the data becomes available) of a microplastic in the ocean. The idea is based on paper ["Toward the Detection and Imaging of Ocean Microplastics With a Spaceborne Radar"](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9449485).
+
+The map itself is made on React JS and Mapbox api, and it uses the JSON file as a database for markers. 
+#### Available Scripts
+In the project directory, you can run:
+
+```npm start```\
+Runs the app in the development mode.\
+Open http://localhost:3000 to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+```npm run build```\
+Builds the app for production to the build folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The main challenge was to retrieve and combine two datasets (namely, the data from [NASA's CYGNSS](https://podaac.jpl.nasa.gov/dataset/CYGNSS_L2_V2.1) and [NOAA GDAS](https://rda.ucar.edu/datasets/ds083.3/#!description)). We used Jupyter and Python to get the data out of dataset and calculate the neccessery variables. Finally, parsed data into json to be able to read from Front-end.
 
 ## Mobile app
 Mobile app of our project allows users to send reports about debris found in chosen locations. Users can send their reports by clicking on places they found debris at. After, our robot, we plan to develop in the future, will come there to collect it. Program is written on Dart programming language and used Google Maps for map widget.
