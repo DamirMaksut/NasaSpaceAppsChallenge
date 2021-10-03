@@ -4,12 +4,27 @@
       {
         "type": "Feature",
         "properties": {
-            "conScale": 0.1
+            "conScale": 0.8
         },
         "geometry": {
           "type": "Point",
           "coordinates": [
-            344.667,
+            -0.337619,
+            2.692674
+          ]
+        }
+      },
+
+      
+      {
+        "type": "Feature",
+        "properties": {
+            "conScale": 0.6
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            180.667,
             -26.7141
           ]
         }
@@ -23,7 +38,7 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            272.081,
+            92.081,
             -31.9592
           ]
         }
