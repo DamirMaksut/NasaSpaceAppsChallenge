@@ -1,0 +1,32 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+            "conScale": 0.1
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            344.667,
+            -26.7141
+          ]
+        }
+      },
+
+      {
+        "type": "Feature",
+        "properties": {
+            "conScale": 0.2
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            272.081,
+            -31.9592
+          ]
+        }
+      }
+    ]
+  }
