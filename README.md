@@ -61,3 +61,8 @@ https://user-images.githubusercontent.com/64933670/135770546-2cd803a8-2bb0-40a4-
 Mobile app of our project allows users to send reports about debris found in chosen locations. Users can send their reports by clicking on places they found debris at. After, our robot, we plan to develop in the future, will come there to collect it. Program is written on Dart programming language and used Google Maps for map widget.
 
 To launch the app, you should install IOS/Android simulator and development platform (with Flutter SDK).
+![image](https://user-images.githubusercontent.com/85204055/135770642-96006dfc-328d-4f27-8d9b-aa49677135ac.jpeg)
+![image](https://user-images.githubusercontent.com/85204055/135770637-1aacc532-8d5e-4b4d-ae69-c1f0ac796b74.jpeg)
+![image](https://user-images.githubusercontent.com/85204055/135770644-720db031-a2af-4216-8048-6b3afb41ebe4.jpeg)
+
+
