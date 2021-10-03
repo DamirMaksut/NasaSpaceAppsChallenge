@@ -57,6 +57,7 @@ https://user-images.githubusercontent.com/64933670/135770546-2cd803a8-2bb0-40a4-
 
 ## Interactive Map
 This is an interactive map (updates once a day, as the data becomes available) of a microplastic in the ocean. The idea is based on paper ["Toward the Detection and Imaging of Ocean Microplastics With a Spaceborne Radar"](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9449485).
+![13_57-1](https://user-images.githubusercontent.com/71317401/135772544-778f5c6c-1e5e-4fb5-b7bb-fe389d827ebb.png)
 
 The map itself is made on React JS and Mapbox api, and it uses the JSON file as a database for markers. First go into client folder and run ```npm install```, and then
 #### Available Scripts
