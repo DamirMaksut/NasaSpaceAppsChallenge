@@ -76,7 +76,7 @@ You will also see any lint errors in the console.
 Builds the app for production to the build folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The main challenge was to retrieve, combine, and process two datasets (namely, the data from [NASA's CYGNSS](https://podaac.jpl.nasa.gov/dataset/CYGNSS_L2_V2.1) and [NOAA GDAS](https://rda.ucar.edu/datasets/ds083.3/#!description)). We used Python data processing libraries to calculate the neccessery average predicted density of plastic pollution on a given area. You can see our algorith either in .ipynb notebook, or here [https://colab.research.google.com/drive/10J3cdGLZpRWN20gpsmjTW9dFKZwKHBwq?usp=sharing|Google colab]
+The main challenge was to retrieve, combine, and process two datasets (namely, the data from [NASA's CYGNSS](https://podaac.jpl.nasa.gov/dataset/CYGNSS_L2_V2.1) and [NOAA GDAS](https://rda.ucar.edu/datasets/ds083.3/#!description)). We used Python data processing libraries to calculate the neccessery average predicted density of plastic pollution on a given area. You can see our algorith either in .ipynb notebook, or here [Google Colab](https://colab.research.google.com/drive/10J3cdGLZpRWN20gpsmjTW9dFKZwKHBwq?usp=sharing)
 
 \\
 ## Mobile app
