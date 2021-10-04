@@ -61,6 +61,7 @@ This is an interactive map (updates once a day, as the data becomes available) o
 ![13_57-1](https://user-images.githubusercontent.com/71317401/135772544-778f5c6c-1e5e-4fb5-b7bb-fe389d827ebb.png)
 
 The map itself is made on React JS and Mapbox api, and it uses the JSON file as a database for markers. First go into client folder and run ```npm install```, and then
+
 #### Available Scripts
 In the project directory, you can run:
 
@@ -75,8 +76,9 @@ You will also see any lint errors in the console.
 Builds the app for production to the build folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The main challenge was to retrieve and combine two datasets (namely, the data from [NASA's CYGNSS](https://podaac.jpl.nasa.gov/dataset/CYGNSS_L2_V2.1) and [NOAA GDAS](https://rda.ucar.edu/datasets/ds083.3/#!description)). We used Jupyter and Python to get the data out of dataset and calculate the neccessery variables. Finally, parsed data into json to be able to read from Front-end.
+The main challenge was to retrieve, combine, and process two datasets (namely, the data from [NASA's CYGNSS](https://podaac.jpl.nasa.gov/dataset/CYGNSS_L2_V2.1) and [NOAA GDAS](https://rda.ucar.edu/datasets/ds083.3/#!description)). We used Python data processing libraries to calculate the neccessery average predicted density of plastic pollution on a given area. You can see our algorith either in .ipynb notebook, or here [https://colab.research.google.com/drive/10J3cdGLZpRWN20gpsmjTW9dFKZwKHBwq?usp=sharing|Google colab]
 
+\\
 ## Mobile app
 Mobile app of our project allows users to send reports about debris found in chosen locations. Users can send their reports by clicking on places they found debris at. After, our robot, we plan to develop in the future, will come there to collect it. Program is written on Dart programming language and used Google Maps for map widget.
 
