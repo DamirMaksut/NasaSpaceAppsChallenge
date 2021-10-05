@@ -80,7 +80,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The main challenge for us was to retrieve, combine, and process two datasets (namely, the data from [NASA's CYGNSS](https://podaac.jpl.nasa.gov/dataset/CYGNSS_L2_V2.1) and [NOAA GDAS](https://rda.ucar.edu/datasets/ds083.3/#!description)).
 
-We used Python data processing libraries to calculate the average predicted density of plastic pollution on a given area based on the method given in "Toward the Detection and Imaging of Ocean Microplastics With a Spaceborne Radar"  by Madeline C. Evans and Christopher S. Ruf  paper. They use diffrence between predicted mean square slope (mss) of water surface modelled in NOAA GDAS's dataset and actual mss that was observed by CYGNSS satelites to find MSS anomaly. Then they establish a correlation between mss_anomaly to density of microplatstics on a given area.
+We used Python data processing libraries to calculate the average predicted density of plastic pollution on a given area based on the method given in "Toward the Detection and Imaging of Ocean Microplastics With a Spaceborne Radar"  by Madeline C. Evans and Christopher S. Ruf  paper. They use a diffrence between predicted mean square slope (mss) of water surface modelled in NOAA GDAS's dataset and an actual mss that was observed by CYGNSS satelites to find MSS anomaly. Then they establish a correlation between mss_anomaly to density of microplatstics on a given area.
 
 We use this correlation to map a possible microplastics' distribution on a given day. 
 
